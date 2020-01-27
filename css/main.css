@@ -1,0 +1,47 @@
+#container {
+    display: grid;
+    margin-left: 15px;
+    margin-top: 45px;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-gap: 15px;
+    background-color: #fff;
+    color: #444;
+    background-color: orange;
+  }
+
+  .planet {
+    background-color: #444;
+    height: 75px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+   
+  }
+  body {
+    margin: 40px;
+    justify-content: center;
+    background-color: orange;
+  }
+
+  @media only screen and (max-width: 361px) {
+    #container {
+        display: grid;
+        grid-template-columns: 120px 120px;
+        grid-gap: 10px;
+        background-color: #fff;
+        color: blue;
+        background-color: orange;
+      }
+
+      .planet {
+        background-color: #444;
+        height: 75px;
+        color:orange;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+        margin: 5px;
+      }
+
+  }
